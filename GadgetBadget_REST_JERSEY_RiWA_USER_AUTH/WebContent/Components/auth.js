@@ -9,16 +9,16 @@ $(document).ready(function() {
 
 $(document).on("click", "#btnLogin", function(event)
 { 
-// Clear alerts---------------------
- $("#alertError").text(""); 
- $("#alertError").hide(); 
-// Form validation-------------------
-var status = validateLoginForm(); 
-if (status != true) 
- { 
- $("#alertError").text(status); 
- $("#alertError").show(); 
- return; 
+	// Clear alerts---------------------
+	 $("#alertError").text(""); 
+	 $("#alertError").hide(); 
+	// Form validation-------------------
+	var status = validateLoginForm(); 
+	if (status != true) 
+	 { 
+	 $("#alertError").text(status); 
+	 $("#alertError").show(); 
+	 return; 
  } 
 // If valid------------------------
  $.ajax( 
@@ -71,12 +71,12 @@ function validateLoginForm()
 	// USERNAME
 	if ($("#txtUsername").val().trim() == "") 
 	 { 
-	 return "Insert Username."; 
+	 return "Insert Your Username."; 
 	 } 
 	// PASSWORD
 	if ($("#txtPassword").val().trim() == "") 
 	 { 
-	 return "Insert Password."; 
+	 return "Insert Your Password."; 
 	 } 
 	return true; 
 }

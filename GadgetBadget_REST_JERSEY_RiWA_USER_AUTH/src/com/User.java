@@ -5,17 +5,17 @@ public class User {
 	public String login(String un, String pw)
 	{ 
 		 String output = ""; 
-		if (!un.equals("asd"))//Hard coded test value 
+		if (!un.equals("it18213140"))//Hard coded test value 
 		 { 
-			output = "Invalid username"; 
+			output = "Invalid Username"; 
 		 } 
-		else if (un.equals("asd"))//Hard coded test value 
+		else if (un.equals("it18213140"))//Hard coded test value 
 			 { 
-			 if (!pw.equals("asd"))//Hard coded test value 
+			 if (!pw.equals("it18213140"))//Hard coded test value 
 			 { 
-				 output = "Invalid password"; 
+				 output = "Invalid Password"; 
 			 } 
-			 else if (pw.equals("asd"))//Hard coded test value 
+			 else if (pw.equals("it18213140"))//Hard coded test value 
 			 { 
 				 output = "success"; 
 			 } 
