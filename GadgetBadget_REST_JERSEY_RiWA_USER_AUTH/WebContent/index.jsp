@@ -31,7 +31,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-6" id="div_001">
+				<div class="col-6">
 					<h1 id="h1_header">Login</h1>
 					
 					<form id="formLogin">
@@ -48,6 +48,9 @@
 						 <br>
 						 <div id="alertError" class="alert alert-danger"></div>
 					</form>
+				 </div>
+				 <div class="col-6">
+				 	<img src="https://mindlercareerlibrarynew.imgix.net/1G-Computer_ScienceCsIT_Software_Engineering.png" width="550px">
 				 </div>
 			</div>
 		</div>
