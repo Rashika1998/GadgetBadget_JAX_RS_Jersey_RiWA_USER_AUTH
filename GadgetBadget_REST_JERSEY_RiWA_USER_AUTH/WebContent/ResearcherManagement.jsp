@@ -79,6 +79,13 @@
 				 %>
 				</div>
 			</div> 
+			
+			
+			<div class="col-6">
+				<img src="https://ak.picdn.net/shutterstock/videos/24590978/thumb/4.jpg" width="600px" style="margin-top:100px;">
+			</div>
+			
+			
 		</div> 
 	</div>
 
